@@ -31,7 +31,7 @@ const Overview = () => {
             </Flex>
         </div>
         <div className="md:hidden flex">
-            <Flex className="relative w-full h-[65vh]">
+            <Flex className="relative w-full h-[70vh]">
              <Image src="/me.jpg" alt="Mohamed" fill quality={100} className="object-cover" />
              <div className="w-full h-full bg-black/40 absolute" />
              <Flex direction={"column"} gap="5" className="absolute h-full" p="5" justify={"center"}>

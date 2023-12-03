@@ -53,7 +53,7 @@ const Works = () => {
         <p className="text-start text-sm text-gray-400">
           swipe to view <br /> next or previous
         </p>
-        <Flex align={"center"} justify={"between"}>
+        <Flex align={"center"} justify={"between"} gap="3">
           <Flex>
             <button className="arrow-right flex arrow bg-black hover:bg-slate-800 cursor-pointer hover:text-lightBlue transition-colors text-white px-2 py-2 rounded-full mr-5 text-xl">
               <AiOutlineCaretLeft />

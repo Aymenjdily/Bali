@@ -46,8 +46,9 @@ export default function Home() {
           quality={100}
           className='object-cover'
         />
+        <div className='w-full h-full bg-black/20 absolute' />
         <div className='absolute md:hidden flex min-h-screen w-full'>
-          <Flex direction={"column"} p="9" justify={"between"} className='min-h-screen' width={"100%"}>
+          <Flex direction={"column"} py="9" px="7" justify={"between"} className='min-h-screen' width={"100%"}>
             <Image
               src="/logo.png"
               alt="Bali"
