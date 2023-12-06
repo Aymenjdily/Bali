@@ -9,7 +9,7 @@ const Overview = () => {
     <>
         <div className="md:flex hidden">
             <Flex align={"center"} gap="6">
-            <Image src="/me.jpg" alt="Mohamed" width={500} height={0} quality={100} />
+            <Image src="/me.jpg" alt="Mohamed" width={400} height={0} quality={100} />
             <Flex direction={"column"} gap="5">
                 <h1 className="text-4xl font-extrabold">Mossi Bali</h1>
                 <p className="text-gray-600">

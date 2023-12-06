@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Flex className='min-h-screen'>
       <div className='h-min-screen flex-1 justify-center md:flex hidden bg-[#F2F2F2]'>
-        <Flex direction={"column"} p="9" justify={"between"} className='h-full'>
+        <Flex direction={"column"} p="9" justify={"between"} className='h-full' gap="9">
           <Image
             src="/logo.png"
             alt="Bali"

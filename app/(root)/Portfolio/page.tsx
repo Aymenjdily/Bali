@@ -12,6 +12,7 @@ const PortfolioPage = () => {
       justify={"between"}
       py="9"
       className="max-w-7xl mx-auto min-h-screen"
+      gap="9"
     >
       <Navbar />
       <Works />

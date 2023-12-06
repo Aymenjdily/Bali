@@ -12,6 +12,7 @@ const AboutPage = () => {
       px="5"
       justify={"between"}
       py="9"
+      gap="9"
       className="max-w-7xl mx-auto min-h-screen"
     >
       <Navbar />
